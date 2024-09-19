@@ -3,6 +3,8 @@ import { useEffect, useState, useRef } from 'react'
 import Lixeira from '../../assets/Lixeira.svg'
 import Api from '../../service/api'
 
+// Função Closure
+
 function Home() {
 
 
@@ -12,7 +14,7 @@ function Home() {
     const weight = document.getElementById('weight').value;
     const height = document.getElementById('height').value;
 
-    // Função Closure
+    
 
     const bmi = (weight / (height **2)).toFixed(2);
 
